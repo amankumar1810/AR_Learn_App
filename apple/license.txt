@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apple fruit 3D
+* source:	https://sketchfab.com/3d-models/apple-fruit-3d-3cb3ac28e00940cca19f4d0566d34be5
+* author:	Abdur Razzak Sawon (https://sketchfab.com/md.abdur.razzak.sawon)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apple fruit 3D" (https://sketchfab.com/3d-models/apple-fruit-3d-3cb3ac28e00940cca19f4d0566d34be5) by Abdur Razzak Sawon (https://sketchfab.com/md.abdur.razzak.sawon) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
