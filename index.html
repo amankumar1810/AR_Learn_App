@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+  <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+
+</head>
+
+<body style="margin: 0px; overflow: hidden">
+  <a-scene arjs="detectionMode:mono_and_matrix; matrixCodeType:3x3">
+    <a-assets>
+      <a-asset-item id="apple" src="./all_gltf_images/apple/scene.gltf"></a-asset-item>
+      <a-asset-item id="ball" src="./all_gltf_images/ball/scene.gltf"></a-asset-item>
+      <a-asset-item id="cat" src="./all_gltf_images/cat/scene.gltf"></a-asset-item>
+      <a-asset-item id="dog" src="./all_gltf_images/dog/scene.gltf"></a-asset-item>
+      <a-asset-item id="elephant" src="./all_gltf_images/elephant/scene.gltf"></a-asset-item>
+      <a-asset-item id="fish" src="./all_gltf_images/fish/scene.gltf"></a-asset-item>
+      <a-asset-item id="goat" src="./all_gltf_images/goat/scene.gltf"></a-asset-item>
+      <a-asset-item id="horse" src="./all_gltf_images/horse/scene.gltf"></a-asset-item>
+      <a-asset-item id="icecream" src="./all_gltf_images/icecream/scene.gltf"></a-asset-item>
+      <a-asset-item id="jug" src="./all_gltf_images/jug/scene.gltf"></a-asset-item>
+      <a-asset-item id="kite" src="./all_gltf_images/kite/scene.gltf"></a-asset-item>
+      <a-asset-item id="lion" src="./all_gltf_images/lion/scene.gltf"></a-asset-item>
+      <a-asset-item id="mango" src="./all_gltf_images/mango/scene.gltf"></a-asset-item>
+      <a-asset-item id="nest" src="./all_gltf_images/nest/scene.gltf"></a-asset-item>
+      <a-asset-item id="ox" src="./all_gltf_images/ox/scene.gltf"></a-asset-item>
+      <a-asset-item id="parrot" src="./all_gltf_images/parrot/scene.gltf"></a-asset-item>
+      <a-asset-item id="queen" src="./all_gltf_images/queen/scene.gltf"></a-asset-item>
+      <a-asset-item id="rabbit" src="./all_gltf_images/rabbit/scene.gltf"></a-asset-item>
+      <a-asset-item id="sun" src="./all_gltf_images/sun/scene.gltf"></a-asset-item>
+      <a-asset-item id="tree" src="./all_gltf_images/tree/scene.gltf"></a-asset-item>
+      <a-asset-item id="umbrella" src="./all_gltf_images/umbrella/scene.gltf"></a-asset-item>
+      <a-asset-item id="van" src="./all_gltf_images/van/scene.gltf"></a-asset-item>
+      <a-asset-item id="whale" src="./all_gltf_images/whale/scene.gltf"></a-asset-item>
+      <a-asset-item id="xmas" src="./all_gltf_images/xmas/scene.gltf"></a-asset-item>
+      <a-asset-item id="yak" src="./all_gltf_images/yak/scene.gltf"></a-asset-item>
+      <a-asset-item id="zebra" src="./all_gltf_images/zebra/scene.gltf"></a-asset-item>
+    </a-assets>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-A.patt>
+      <a-gltf-model src="#apple" position="0 -1 0" rotation="-50 0 0" scale="1 1 1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-B.patt>
+      <a-gltf-model src="#ball" position="0 -1 0" rotation="0 90 0" scale="1 1 1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-C.patt>
+      <a-gltf-model src="#cat" position="0 -1 0" rotation="-90 0 20" scale="0.5 0.5 0.5" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-D.patt>
+      <a-gltf-model src="#dog" position="0 -1 0" rotation="0 0 0" scale="1.5 1.5 1.5" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-E.patt>
+      <a-gltf-model src="#elephant" position="-8 -10 2" rotation="90 90 0" scale="1 1 1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-F.patt>
+      <a-gltf-model src="#fish" position="0 -1 0" rotation="0 90 0" scale="0.3 0.3 0.3" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-G.patt>
+      <a-gltf-model src="#goat" position="-8 -10 2" rotation="0 90 0" scale="1 1 1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-H.patt>
+      <a-gltf-model src="#horse" position="0 -1 0" rotation="0 90 0" scale="0.7 0.7 0.7" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-I.patt>
+      <a-gltf-model src="#icecream" position="0 -1 0" rotation="0 90 0" scale="1 1 1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-J.patt>
+      <a-gltf-model src="#jug" position="0 -1 0" rotation="-90 0 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-K.patt>
+      <a-gltf-model src="#kite" position="0 -1 0" rotation="-90 90 -90" scale="0.7 0.7 0.7" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-L.patt>
+      <a-gltf-model src="#lion" position="0 -1 0" rotation="-45 0 0" scale="1 1 1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-M.patt>
+      <a-gltf-model src="#mango" position="0 -1 0" rotation="-45 -90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-N.patt>
+      <a-gltf-model src="#nest" position="0 -1 0" rotation="45 0 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-O.patt>
+      <a-gltf-model src="#ox" position="10 0 0" rotation="0 90 0" scale="0.3 0.3 0.3" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-P.patt>
+      <a-gltf-model src="#parrot" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-Q.patt>
+      <a-gltf-model src="#queen" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-R.patt>
+      <a-gltf-model src="#rabbit" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-S.patt>
+      <a-gltf-model src="#sun" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-T.patt>
+      <a-gltf-model src="#tree" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-U.patt>
+      <a-gltf-model src="#umbrella" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-V.patt>
+      <a-gltf-model src="#van" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-W.patt>
+      <a-gltf-model src="#whale" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-X.patt>
+      <a-gltf-model src="#xmas" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+    <a-marker type="pattern" url=./Pattern_Images/pattern-Y.patt>
+      <a-gltf-model src="#yak" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker>
+
+     <a-marker type="pattern" url=./Pattern_Images/pattern-Z.patt>
+      <a-gltf-model src="#zebra" position="0 -1 0" rotation="0 90 0" scale="0.1 0.1 0.1" animation-mixer></a-gltf-model>
+    </a-marker> 
+
+    <a-entity camera></a-entity>
+  </a-scene>
+</body>
+
+</html>
